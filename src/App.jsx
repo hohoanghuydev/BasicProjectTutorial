@@ -2,6 +2,7 @@ import React from 'react'
 import Accordian from './components/accordian'
 import RandomColor from './components/random-color'
 import StarRating from './components/star-rating'
+import ImageSlider from './components/image-slider'
 
 const App = () => {
   return (
@@ -10,7 +11,9 @@ const App = () => {
 
       {/* <RandomColor /> */}
 
-      <StarRating />
+      {/* <StarRating /> */}
+
+      <ImageSlider url={`https://picsum.photos/v2/list`} limit={10} page={1} />
     </div>
   )
 }
