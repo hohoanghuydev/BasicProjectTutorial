@@ -1,5 +1,5 @@
 import React from 'react'
-import data from './data'
+import './styles.css'
 import MenuList from './menu-list'
 
 const TreeView = ({ menus = [] }) => {

@@ -6,6 +6,7 @@ import ImageSlider from './components/image-slider'
 import LoadMoreData from './components/load-moredata'
 import TreeView from './components/tree-view'
 import data from './components/tree-view/data'
+import QrCodeGenerator from './components/qr-code-generator'
 
 const App = () => {
   return (
@@ -20,7 +21,9 @@ const App = () => {
 
       {/* <LoadMoreData /> */}
 
-      <TreeView menus={data} />
+      {/* <TreeView menus={data} /> */}
+
+      <QrCodeGenerator />
     </div>
   )
 }
