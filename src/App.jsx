@@ -7,6 +7,7 @@ import LoadMoreData from './components/load-moredata'
 import TreeView from './components/tree-view'
 import data from './components/tree-view/data'
 import QrCodeGenerator from './components/qr-code-generator'
+import LightDarkMode from './components/light-dark-mode'
 
 const App = () => {
   return (
@@ -23,7 +24,9 @@ const App = () => {
 
       {/* <TreeView menus={data} /> */}
 
-      <QrCodeGenerator />
+      {/* <QrCodeGenerator /> */}
+
+      <LightDarkMode />
     </div>
   )
 }
