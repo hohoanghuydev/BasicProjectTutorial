@@ -9,6 +9,7 @@ import data from './components/tree-view/data'
 import QrCodeGenerator from './components/qr-code-generator'
 import LightDarkMode from './components/light-dark-mode'
 import ScrollIndicator from './components/scroll-indicator'
+import TabTest from './components/custom-tabs/tabs-test'
 
 const App = () => {
   return (
@@ -29,7 +30,9 @@ const App = () => {
 
       {/* <LightDarkMode /> */}
 
-      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} />
+      {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} /> */}
+
+      <TabTest />
     </div>
   )
 }
