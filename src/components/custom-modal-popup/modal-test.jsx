@@ -17,7 +17,7 @@ const ModalTest = () => {
         <div>
             <button onClick={handleOnClick}>Open Modal Popup</button>
             {
-                showModalPopup ? <Modal handleOnClose={onClose} /> : null
+                showModalPopup ? <Modal header={<h1>Header Modal</h1>} handleOnClose={onClose} /> : null
             }
         </div>
     )
