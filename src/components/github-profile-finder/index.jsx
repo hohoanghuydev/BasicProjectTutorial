@@ -40,8 +40,8 @@ const GithubProfileFinder = () => {
     return (
         <div className='github-profile-finder-container'>
             <div className="input-wrapper">
-                <input type="text" name='userName' placeholder='Input your username' onChange={(e) => setUserName(e.target.value)} value={userName} />
-                <button onClick={handleOnClick}>Search</button>
+                <input className='textbox-input-username' type="text" name='userName' placeholder='Input your username' onChange={(e) => setUserName(e.target.value)} value={userName} />
+                <button className='button-search-profile' onClick={handleOnClick}>Search</button>
             </div>
             <div>
                 <CardProfile user={data} />
