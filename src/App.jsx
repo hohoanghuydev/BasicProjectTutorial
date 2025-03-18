@@ -13,6 +13,7 @@ import TabTest from './components/custom-tabs/tabs-test'
 import ModalTest from './components/custom-modal-popup/modal-test'
 import GithubProfileFinder from './components/github-profile-finder'
 import SearchAutocomplete from './components/search-autocomplete'
+import CheckerBoard from './components/caro-game'
 
 const App = () => {
   return (
@@ -41,7 +42,9 @@ const App = () => {
 
       {/* <GithubProfileFinder /> */}
 
-      <SearchAutocomplete />
+      {/* <SearchAutocomplete /> */}
+
+      <CheckerBoard />
     </div>
   )
 }
