@@ -14,6 +14,8 @@ import ModalTest from './components/custom-modal-popup/modal-test'
 import GithubProfileFinder from './components/github-profile-finder'
 import SearchAutocomplete from './components/search-autocomplete'
 import CheckerBoard from './components/caro-game'
+import FeatureFlags from './components/feature-flag'
+import FeatureFlagsGlobalContext from './components/feature-flag/context'
 
 const App = () => {
   return (
@@ -44,7 +46,11 @@ const App = () => {
 
       {/* <SearchAutocomplete /> */}
 
-      <CheckerBoard />
+      {/* <CheckerBoard /> */}
+
+      <FeatureFlagsGlobalContext>
+        <FeatureFlags />
+      </FeatureFlagsGlobalContext>
     </div>
   )
 }
